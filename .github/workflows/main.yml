@@ -22,9 +22,6 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Setup Puppeteer Environment
-      uses: microsoft/playwright-github-action@v1
-
     - name: Run Puppeteer Tests
       run: npm run test
 
