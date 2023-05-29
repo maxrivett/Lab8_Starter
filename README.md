@@ -1,5 +1,11 @@
 # Lab 8 - Starter
 
+## Screenshot of all my tests results from running `npm test`:
+
+As mentioned in the `lab-8` slack, I could for whatever reason not get the testing itself to work, getting a `Error: Jest: Got error running globalSetup` every time I tried to test. This persisted when I tried to test with a workflow using Github Actions. So, these tests were all written blindly without the ability to see if they were working or not.
+
+## *Check Your Understanding* Questions:
+
 ### 1. Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
 **Within a Github action that runs whenever code is pushed** 
